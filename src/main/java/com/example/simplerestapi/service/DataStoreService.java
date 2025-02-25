@@ -55,8 +55,6 @@ public class DataStoreService {
                 cacheMap.put(lastItem, currIndex);
                 --currentMaxIndex;
             }
-            System.out.println(cacheMap);
-            System.out.println(cacheList);
             return "Item has been deleted: " + item;
         }
     }
